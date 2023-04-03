@@ -9,7 +9,7 @@ profile:
   image: yukun-ma.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>+1 (615)-710-7851</p>
+    <p>+1 (615) 710-7851</p>
     <p><a href="mailto:yukun.ma@vanderbilt.edu">yukun.ma@vanderbilt.edu</a></p>
     <p>Calhoun Hall, 2201 West End Ave,</p>
     <p>Nashville, Tennessee, 37212</p>
