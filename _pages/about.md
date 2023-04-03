@@ -11,7 +11,7 @@ profile:
   address: >
     <p>+1 (615) 710-7851</p>
     <p><a href="mailto:yukun.ma@vanderbilt.edu">yukun.ma@vanderbilt.edu</a></p>
-    <p>Calhoun Hall, 2201 West End Ave,</p>
+    <p>Calhoun Hall, 2201 West End Ave, </p>
     <p>Nashville, Tennessee, 37212</p>
 
 news: false # includes a list of news items
