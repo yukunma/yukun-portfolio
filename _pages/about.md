@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, I'm Yukun Ma, a PhD student in **econometrics** at _Vanderbilt University_. I'm passionate about developing and applying statistical methods to answer economic questions. My work includes time series analysis, panel data models, and machine learning methods in econometrics.
+Hello, I am Yukun Ma, a Ph.D. student in **econometrics** at Vanderbilt University. My research centers around econometric theory and its practical applications. Specifically, my interests lie in _robust inference_ for clustered data and dyadic data, as well as _machine-learning_ methods.
 
-I received my bachelor's degree in physics from Nankai University and my master's degree in economics from Guanghua Management School, Peking University. I'm currently pursuing my doctoral degree at Vanderbilt University, where I'm working on cutting-edge research in econometrics.
+I am currently working on my job market paper, which focuses on identification-robust inference for the Local Average Treatment Effect (LATE) with high-dimensional covariates.
 
-Thank you for taking the time to learn more about me and my research interests. Please feel free to explore my website to learn more about my work and interests.
+Thank you for taking the time to learn more about me and my research interests. Please feel free to contact me for R codes or any other questions about my projects.
