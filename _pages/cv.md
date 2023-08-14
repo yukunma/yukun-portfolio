@@ -1,8 +1,8 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Resume
 nav: true
 nav_order: 0
-cv_pdf: example_pdf.pdf
+cv_pdf: Yukun-Ma-Resume.pdf
 ---

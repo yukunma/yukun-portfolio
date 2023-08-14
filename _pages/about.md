@@ -13,6 +13,7 @@ profile:
     <p><a href="mailto:yukun.ma@vanderbilt.edu">yukun.ma@vanderbilt.edu</a></p>
     <p>Calhoun Hall, 2201 West End Ave, </p>
     <p>Nashville, Tennessee, 37212</p>
+    <p> <a href="https://scholar.google.com/citations?user=MFra9aUAAAAJ">  Google Scholar</a></p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
