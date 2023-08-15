@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: List of my teaching experience.
+description: List of my TA experience.
 nav: true
 nav_order: 5
 ---
