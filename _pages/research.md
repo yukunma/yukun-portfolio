@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /research/
-title: Research
-description: This is a collection of my published and working papers.
+title: Other Papers
+description: This is a collection of my published and working papers other than JMP.
 nav: true
 nav_order: 2
 ---
@@ -23,7 +23,7 @@ Read full article:
 - [on Arxiv](https://arxiv.org/pdf/1909.03489.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:u-x6o8ySG0sC)
 
-## **Working papers**
+## **Working Papers**
 
 ### Dyadic double/debiased machine learning for analysing determinants of free trade agreements
 

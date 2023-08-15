@@ -19,5 +19,8 @@ Read full article:
 
 - [Slides](/assets/pdf/Yukun-Ma-JMP-AMES2023.pdf)
 
+<img src="../assets/img/Yukun-JMP-Fig1.png" width="95%">  
+_Power curves for my proposed method (HD-QLR), the conventional identification-robust method (AM16), and conventional machine learning methods (CCDDHNR18 and BCFH17) are illustrated in the context of a **strongly** identified LATE design, with the proportion of compliers set at **0.5**._
+
 <img src="../assets/img/Yukun-JMP-Fig2.png" width="95%">
-_Power curves for my proposed method (HD-QLR), the conventional identification-robust method (AM16), and conventional machine learning methods (CCDDHNR18 and BCFH17) are illustrated in the context of a weakly identified LATE design, with the proportion of compliers set at 0.1._
+_Power curves for my proposed method (HD-QLR), the conventional identification-robust method (AM16), and conventional machine learning methods (CCDDHNR18 and BCFH17) are illustrated in the context of a **weakly** identified LATE design, with the proportion of compliers set at **0.1**._

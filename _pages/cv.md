@@ -1,8 +1,8 @@
 ---
 layout: cv
-permalink: /resume/
-title: Resume
+permalink: /cv/
+title: CV
 nav: true
 nav_order: 0
-cv_pdf: Yukun-Ma-Resume.pdf
+cv_pdf: Yukun-Ma-CV.pdf
 ---
