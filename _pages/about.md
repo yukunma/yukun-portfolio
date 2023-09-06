@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, I'm an Economics Ph.D. candidate at Vanderbilt University. My research centers around **econometric theory** and its **practical applications**. Specifically, my interests lie in robust inference for clustered data and dyadic data, as well as machine-learning methods.
+Hello, I’m an Economics Ph.D. candidate at Vanderbilt University. My research centers around **econometric theory** and its **practical applications**. Specifically, my interests lie in robust inference for clustered data, machine-learning and high-dimensional methods, as well as weak identification in IV regression.
 
 I am on the **2023–24 Job Market** and will be available for interviews.
 My job market paper focuses on identification-robust inference for the Local Average Treatment Effect (LATE) with high-dimensional covariates.
