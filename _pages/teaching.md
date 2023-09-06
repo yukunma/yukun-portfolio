@@ -7,6 +7,14 @@ nav: true
 nav_order: 5
 ---
 
+# Courses I would like to teach:
+
+- Econometrics for Big Data
+- Econometrics
+- Statistical Analysis
+
+# List of my TA experience:
+
 ## **Vanderbilt University**
 
 ### Doctoral Courses
