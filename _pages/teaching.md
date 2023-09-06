@@ -2,18 +2,18 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: List of my TA experience.
+description:
 nav: true
 nav_order: 5
 ---
 
-# Courses I would like to teach:
+# My Preferred Courses for Teaching
 
 - Econometrics for Big Data
 - Econometrics
 - Statistical Analysis
 
-# List of my TA experience:
+# List of my TA experience
 
 ## **Vanderbilt University**
 
@@ -25,7 +25,7 @@ nav_order: 5
 
 ### Master Courses
 
-- Statistical Analysis:: Fall 2020 (4.67/5)
+- Statistical Analysis: Fall 2020 (4.67/5)
 
 ### Undergraduate Courses
 
