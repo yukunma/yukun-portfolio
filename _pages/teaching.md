@@ -7,27 +7,28 @@ nav: true
 nav_order: 5
 ---
 
-# My Preferred Courses for Teaching
+## _My Preferred Courses for Teaching_
 
 - Econometrics for Big Data
+- Machine Learning Techniques in Econometrics
 - Econometrics
 - Statistical Analysis
 
-# List of my TA experience
+## _List of my TA experience_
 
-## **Vanderbilt University**
+### **Vanderbilt University**
 
-### Doctoral Courses
+#### Doctoral Courses
 
 - Statistical Analysis: Fall 2020 (4.88/5)
 - Microeconometrics: Spring 2023 (5/5)
 - Econometrics I: Spring 2020 (5/5)
 
-### Master Courses
+#### Master Courses
 
 - Statistical Analysis: Fall 2020 (4.67/5)
 
-### Undergraduate Courses
+#### Undergraduate Courses
 
 - Economic Statistics: Fall 2019 (4.33/5)
 - Principles of Microeconomics: Spring 2020 (4.67/5), Fall 2022 (4.50/5)
@@ -36,7 +37,7 @@ nav_order: 5
 
 <img src="../assets/img/Yukun-Teaching.jpg" width="75%">
 
-## **Peking University**
+### **Peking University**
 
 - Optimization in Economics and Finance (Ph.D. level ) Spring 2017
 - Macroeconomics & Policy Analysis (MBA course ) Spring 2017
