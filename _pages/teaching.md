@@ -11,6 +11,8 @@ nav_order: 5
 
 - Econometrics for Big Data
 - Machine Learning Techniques in Econometrics
+- Causal Inference
+- Program Evaluation
 - Econometrics
 - Statistical Analysis
 
