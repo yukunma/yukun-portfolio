@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Econometrics, Machine Learning
+subtitle: Econometrics, Machine Learning, Weak Identification
 
 profile:
   align: left

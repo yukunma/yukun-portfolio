@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Yukun Ma
+      value: Yukun Ma (马玉坤)
     - name: Languages
       value: English, Mandarin
 
@@ -18,39 +18,35 @@
     - title: B.A. in Physics, B.A. in Finance
       institution: Nankai University
       year: Aug 2012 - May 2016
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
 
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
+- title: Conferences
+  type: time_table
+  contents:
+    - title:
+      year: 2023
+      description:
+        - NY Camp Econometrics XVII program (New York, April 2023)
+        - Chinese Economist Society North American Conference (Virtual, March 2023)
+        - 1st CIREQ Interdisciplinary Ph.D. Student Conference on Big Data and Artificial Intelligence (Montreal, June 2023)
+        - Asia Meeting of the Econometric Society (Singapore, July 2023),
+        - 38th European Economic Association (Barcelona, August 2023)
+        - Midwest Econometrics Group Conference (Cleveland, October 2023)
+        - Canadian Econometric Study Group Meeting (Toronto, October 2023)
+        - Southern Economic Association Annual Meetings (New Orleans, November 2023)
+    - title:
+      year: 2022
+      description:
+        - Midwest Economics Association 86th Annual Meeting (Michigan, October 2022)
 
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
-
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
-
+    - title:
+      year: 2021
+      description:
+        - New York Camp Econometrics XV program (April 2021)
+        - Asian Meeting of Econometric Society (June 2021)
+        - North American Summer Meeting (June 2021)
+        - 73rd European Meeting of the Econometric Society (August 2021)
+        - International Association of Applied Econometrics Annual Conference (June 2021)
+        - Southern Economics Association 91st Annual Meeting (Houston, November 2021)
 # - title: Honors and Awards
 #   type: time_table
 #   contents:

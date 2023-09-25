@@ -17,7 +17,7 @@ Read full article:
 
 **Presentations**: NY Camp Econometrics XVII, Chinese Economist Society North American Conference, 1st CIREQ Interdisciplinary PhD Student Conference on Big Data and Artificial Intelligence, 2023 Asia Meeting of the Econometric Society.
 
-- [Slides](/assets/pdf/Yukun-Ma-JMP-AMES2023.pdf)
+- [Slides](/assets/pdf/Yukun-Ma-JMP.pdf)
 
 <img src="../assets/img/Yukun-JMP-Fig1.png" width="95%">  
 _Power curves for my proposed method (HD-QLR), the conventional identification-robust method (AM16), and conventional machine learning methods (CCDDHNR18 and BCFH17) are illustrated in the context of a **strongly** identified LATE design, with the proportion of compliers set at **0.5**._
