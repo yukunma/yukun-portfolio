@@ -17,7 +17,7 @@ and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)
 _Journal of Business and Economic Statistics_, 40 (3), pp. 1046-1056 (2022)  
 **Abstract**: This paper investigates double/debiased machine learning (DML) under multiway clustered sampling environments. We propose a novel multiway cross-fitting algorithm and a multiway DML estimator based on this algorithm. We also develop a multiway cluster robust standard error formula. Simulations indicate that the proposed procedure has favorable finite sample performance. Applying the proposed method to market share data for demand analysis, we obtain larger two-way cluster robust standard errors for the price coefficient than non-robust ones in the demand model.
 
-**Code**: R, Stata, Python
+**Code**: [R code](https://www.tandfonline.com/doi/suppl/10.1080/07350015.2021.1895815?scroll=top), [Stata](https://drive.google.com/file/d/1G2Nn6LzmICQwtC02Z0H8Truo7vTPwutp/view), [Python Package](https://docs.doubleml.org/stable/api/api.html), [R Package](https://docs.doubleml.org/r/stable/)
 
 Read full article:
 
@@ -25,11 +25,12 @@ Read full article:
 - [on Arxiv](https://arxiv.org/pdf/1909.03489.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:u-x6o8ySG0sC)
 
-## **Working Papers**
+## **Papers under Revision/Resubmission**
 
 #### Dyadic double/debiased machine learning for analysing determinants of free trade agreements
 
 with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel Rodrigue](https://joelrodrigue.com/), and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)  
+_Revise & Resubmit at Journal of Business and Economic Statistics_  
 **Abstract**: This paper presents novel methods and theories for estimation and inference about parameters in statistical models using machine learning for nuisance parameters estimation when data are dyadic. We propose a dyadic cross-fitting method to remove over-fitting biases under arbitrary dyadic dependence. Together with the use of Neyman orthogonal scores, this novel cross-fitting method enables root-n consistent estimation and inference robustly against dyadic dependence. We demonstrate its versatility by applying it to high-dimensional network formation models and reexamine the determinants of free trade agreements (FTA).
 
 Read full article:
@@ -40,6 +41,8 @@ Read full article:
 **Presentations**: New York Camp Econometrics XV program, Asian Meeting of Econometric Society, North American Summer Meeting, 73rd European meeting of the Econometric Society, International Association of Applied Econometrics Annual Conference, Southern Economics Association 91st Annual Meeting, Midwest Economics Association 86th Annual Meeting,
 
 - [Slides](/assets/pdf/Yukun-Ma-Dyadic-MEG2022.pdf)
+
+## **Working Papers**
 
 #### Doubly Robust Estimators with Weak Overlap
 
