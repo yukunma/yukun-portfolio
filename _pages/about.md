@@ -23,6 +23,6 @@ social: true # includes social icons at the bottom of the page
 Hello, I’m an Economics Ph.D. candidate at Vanderbilt University. My research centers around **econometric theory** and its **practical applications**. Specifically, my interests lie in robust inference for clustered data, machine-learning and high-dimensional methods, as well as weak identification in IV regression.
 
 I am on the **2023–24 Job Market** and will be available for interviews.
-My job market paper focuses on identification-robust inference for the Local Average Treatment Effect (LATE) with high-dimensional covariates.
+My [job market paper](https://www.yukunma.com/jmp/), entitled “Identification-Robust Inference for the LATE with High-Dimensional Covariates,” received the Best Student Paper Award at the 2023 Midwest Econometrics Group (MEG) Conference.
 
 Thank you for taking the time to learn more about me and my research interests. Please feel free to contact me for R codes or any other questions about my projects.
