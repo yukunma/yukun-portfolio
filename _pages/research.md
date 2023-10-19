@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-#### "Multiway Cluster Robust Double/Debiased Machine Learning"
+#### <font color ="#263755" face = "Arial" >"Multiway Cluster Robust Double/Debiased Machine Learning" </font>
 
 with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home),
 [Kengo Kato](https://sites.google.com/site/kkatostat/home),
@@ -19,11 +19,11 @@ _**Journal of Business and Economic Statistics**_, 40 (3), pp. 1046-1056 (2022)
 
 Read full article:
 
-- [on JBES](https://www.tandfonline.com/doi/abs/10.1080/07350015.2021.1895815)
-- [on Arxiv](https://arxiv.org/pdf/1909.03489.pdf)
+- [published version on JBES](https://www.tandfonline.com/doi/abs/10.1080/07350015.2021.1895815)
+- [on arXiv](https://arxiv.org/pdf/1909.03489.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:u-x6o8ySG0sC)
 
-#### "Dyadic Double/Debiased Machine Learning for Analysing Determinants of Free Trade Agreements"
+#### <font color ="#263755" face = "Arial" > "Dyadic Double/Debiased Machine Learning for Analysing Determinants of Free Trade Agreements" </font>
 
 with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel Rodrigue](https://joelrodrigue.com/), and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)  
 _**Revise & Resubmit at Journal of Business and Economic Statistics**_  
@@ -31,14 +31,14 @@ _**Revise & Resubmit at Journal of Business and Economic Statistics**_
 
 Read full article:
 
-- [on Arxiv](https://arxiv.org/pdf/2110.04365.pdf)
+- [on arXiv](https://arxiv.org/pdf/2110.04365.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:9yKSN-GCB0IC)
 
 **Presentations**: New York Camp Econometrics XV program, Asian Meeting of Econometric Society, North American Summer Meeting, 73rd European meeting of the Econometric Society, International Association of Applied Econometrics Annual Conference, Southern Economics Association 91st Annual Meeting, Midwest Economics Association 86th Annual Meeting,
 
 - [Slides](/assets/pdf/Yukun-Ma-Dyadic-MEG2022.pdf)
 
-#### "Doubly Robust Estimators with Weak Overlap"
+#### <font color ="#263755" face = "Arial" > "Doubly Robust Estimators with Weak Overlap" </font>
 
 with [Pedro H.C. Sant’Anna](https://psantanna.com/), [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/), and [Takuya Ura](https://uratakuya.github.io/)  
 **Abstract**: In this paper, we derive a new class of doubly robust estimators for treatment effect estimands that is also robust against weak covariate overlap. Our proposed estimator relies on trimming observations with extreme propensity scores and uses a bias correction device for trimming bias. Our framework accommodates many research designs, such as unconfoundedness, local treatment effects, and difference-in-differences. Simulation exercises illustrate that our proposed tools indeed have attractive finite sample properties, which are aligned with our theoretical
@@ -46,19 +46,19 @@ asymptotic results.
 
 Read full article:
 
-- [on Arxiv](https://arxiv.org/pdf/2304.08974.pdf)
+- [on arXiv](https://arxiv.org/pdf/2304.08974.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:IjCSPb-OGe4C)
 
 ## **Job Market Paper**
 
-#### "Identification-robust Inference for the LATE with High-dimensional Covariates"
+#### <font color ="#263755" face = "Arial" > "Identification-robust Inference for the LATE with High-dimensional Covariates" </font>
 
 _**Best Student Paper Award** at the 2023 Midwest Econometrics Group (MEG) Conference._  
 **Abstract**: This paper investigates the local average treatment effect (LATE) with high-dimensional covariates, irrespective of the strength of identification. We propose a novel test statistic for the high-dimensional LATE and demonstrate that our test has uniformly correct asymptotic size. By employing the double/debiased machine learning method for nuisance parameter estimation, we develop easy-to-implement algorithms for inference and confidence interval calculation of the high-dimensional LATE. Simulations indicate that our test is robust against both weak identification and high dimensionality concerning size control and power performance, outperforming other conventional tests. Applying the proposed method to railroad and population data to study the effect of railroad access on urban population growth, we observe that our methodology yields point estimates for the railroad access coefficients that are smaller in magnitude, and confidence intervals that are by 49% to 92% shorter depending on specifications, when compared to the conventional results.
 
 Read full article:
 
-- [on Arxiv](https://arxiv.org/pdf/2302.09756.pdf)
+- [on arXiv](https://arxiv.org/pdf/2302.09756.pdf)
 
 **Presentations**: NY Camp Econometrics XVII, Chinese Economist Society North American Conference, 1st CIREQ Interdisciplinary PhD Student Conference on Big Data and Artificial Intelligence, 2023 Asia Meeting of the Econometric Society, 38th meeting of European Economic Association, 33rd Midwest Econometrics Group.
 
