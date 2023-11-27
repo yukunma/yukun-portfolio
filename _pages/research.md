@@ -49,8 +49,6 @@ Read full article:
 - [on arXiv](https://arxiv.org/pdf/2304.08974.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:IjCSPb-OGe4C)
 
-## **Job Market Paper**
-
 #### <font color ="#263755" face = "Arial" > "Identification-robust Inference for the LATE with High-dimensional Covariates" </font>
 
 _**Best Student Paper Award** at the 2023 Midwest Econometrics Group (MEG) Conference._  
