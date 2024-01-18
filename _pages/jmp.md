@@ -14,11 +14,12 @@ _**Best Student Paper Award** at the 2023 Midwest Econometrics Group (MEG) Confe
 
 Read full article:
 
+- [Most recent version](/assets/pdf/Yukun-Ma-JMP-v1.pdf)
 - [on arXiv](https://arxiv.org/pdf/2302.09756.pdf)
 
 **Presentations**: NY Camp Econometrics XVII, Chinese Economist Society North American Conference, 1st CIREQ Interdisciplinary PhD Student Conference on Big Data and Artificial Intelligence, 2023 Asia Meeting of the Econometric Society, 38th meeting of European Economic Association, 33rd Midwest Econometrics Group.
 
-- [Slides](/assets/pdf/Yukun-Ma-JMP.pdf)
+- [Slides](/assets/pdf/Yukun-Ma-JMP-slides-v1.pdf)
 
 <img src="../assets/img/Yukun-JMP-Fig1.png" width="95%">  
 _Power curves for my proposed method (HD-QLR), the conventional identification-robust method (AM16), and conventional machine learning methods (CCDDHNR18 and BCFH17) are illustrated in the context of a **strongly** identified LATE design, with the proportion of compliers set at **0.5**._
