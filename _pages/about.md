@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, I’m an Economics Ph.D. candidate at Vanderbilt University. My research centers around econometric theory and its practical applications. Specifically, my interests lie in robust inference for clustered data, machine-learning and high-dimensional methods, as well as weak identification in IV regression.
+I received the Ph.D. degree in Economics from Vanderbilt University. My research centers around econometric theory and its practical applications. Specifically, my interests lie in robust inference for clustered data, machine-learning and high-dimensional methods, as well as weak identification in IV regression.
 
 <!-- My [job market paper](https://www.yukunma.com/jmp/), entitled “Identification-Robust Inference for the LATE with High-Dimensional Covariates,” received the Best Student Paper Award at the 2023 Midwest Econometrics Group (MEG) Conference.
 
