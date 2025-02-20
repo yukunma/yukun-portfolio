@@ -25,8 +25,8 @@ Read full article:
 
 #### <font color ="#263755" face = "Arial" > "Dyadic Double/Debiased Machine Learning for Analysing Determinants of Free Trade Agreements" </font>
 
-with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel Rodrigue](https://joelrodrigue.com/), and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)  
-_**Revise & Resubmit at Journal of Business and Economic Statistics**_  
+with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel Rodrigue](https://joelrodrigue.com/), and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)
+
 **Abstract**: This paper presents novel methods and theories for estimation and inference about parameters in statistical models using machine learning for nuisance parameters estimation when data are dyadic. We propose a dyadic cross-fitting method to remove over-fitting biases under arbitrary dyadic dependence. Together with the use of Neyman orthogonal scores, this novel cross-fitting method enables root-n consistent estimation and inference robustly against dyadic dependence. We demonstrate its versatility by applying it to high-dimensional network formation models and reexamine the determinants of free trade agreements (FTA).
 
 Read full article:
