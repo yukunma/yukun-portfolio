@@ -3,7 +3,7 @@ layout: page
 permalink: /jmp/
 title: JMP
 description: This is my JMP for 2023-2024 job market.
-nav: true
+nav: false
 nav_order: 1
 ---
 
