@@ -45,92 +45,13 @@ git pull origin master
    - `_projects/` folder - Your projects
    - `_config.yml` - Site settings
 
-#### 📄 **How to Update Your CV PDF:**
-**If you want to upload a new CV PDF file:**
+#### � **Detailed Content Update Guides:**
+Click on the links below for step-by-step instructions:
 
-1. **Add your new PDF file**:
-   - Place your new CV PDF in the `assets/pdf/` folder
-   - **Recommended naming**: `Yukun-Ma-CV-v5.pdf` (increment the version number)
-
-2. **Update the CV page link**:
-   - Open the file: `_pages/cv.md`
-   - Find the line: `cv_pdf: Yukun-Ma-CV-v4.pdf`
-   - Change it to: `cv_pdf: Yukun-Ma-CV-v5.pdf` (or your new filename)
-   - **Save the file**
-
-3. **Optional - Clean up old files**:
-   - You can delete old CV versions from `assets/pdf/` folder if desired
-   - Keep at least the current version referenced in `cv.md`
-
-**Example**: If your new CV is named `Yukun-Ma-CV-v5.pdf`, your `_pages/cv.md` should look like:
-```
-cv_pdf: Yukun-Ma-CV-v5.pdf
-```
-
-#### 👤 **How to Update Your About Page:**
-**To update your personal information, bio, or profile:**
-
-**File to edit**: `_pages/about.md`
-
-**Common updates**:
-1. **Personal info** (top section):
-   - Phone number: `<p>+1 (615) 710-7851</p>`
-   - Email: `<p><a href="mailto:...">your.email@domain.com</a></p>`
-   - Address: `<p>225 Harkness Hall</p>`
-   - Google Scholar: `<p> <a href="...">Google Scholar</a></p>`
-
-2. **Bio text** (main content):
-   - Update the paragraphs below the `---` section
-   - Describe your current position, research interests, achievements
-
-3. **Profile picture**:
-   - Add new photo to `assets/img/` folder
-   - Update: `image: your-new-photo.jpg`
-
-**Example**: To change your bio, edit the text after the `---` line
-
-#### 🔬 **How to Update Your Research Page:**
-**To add new papers or update existing ones:**
-
-**File to edit**: `_pages/research.md`
-
-**To add a new paper**:
-1. **Copy the format** of an existing paper section
-2. **Update all details**:
-   - Title in colored header: `#### <font color ="#263755">Your Paper Title</font>`
-   - Co-authors with their website links
-   - Journal/conference information
-   - Abstract
-   - Links to PDF, arXiv, Google Scholar
-
-3. **Add PDF files**:
-   - Put paper PDFs in `assets/pdf/` folder
-   - Link them: `[PDF](/assets/pdf/Your-Paper.pdf)`
-
-**To update existing papers**:
-- Edit the relevant section with new information
-- Update PDF links if you have new versions
-
-#### 🎓 **How to Update Your Teaching Page:**
-**To add new courses or update ratings:**
-
-**File to edit**: `_pages/teaching.md`
-
-**To add new courses**:
-1. **Follow the existing format**:
-   ```
-   **University Name, Department**
-   
-   COURSE CODE: Course Name Semester Year (Rating/5)
-   ```
-
-2. **Example**:
-   ```
-   ECON 101: Introduction to Economics Spring 2025 (4.8/5)
-   ```
-
-**To update course ratings**:
-- Find the course line and update the rating in parentheses
+- 📄 **[How to Update Your CV PDF](SOP/update-cv-pdf.md)** - Upload new CV files and update links
+- 👤 **[How to Update Your About Page](SOP/update-about-page.md)** - Personal info, bio, and profile picture
+- 🔬 **[How to Update Your Research Page](SOP/update-research-page.md)** - Add new papers or update existing ones
+- 🎓 **[How to Update Your Teaching Page](SOP/update-teaching-page.md)** - Add courses and update ratings
 
 3. **Make your changes and SAVE the files**
 
