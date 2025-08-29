@@ -38,12 +38,21 @@ git pull origin master
 **Expected result**: You should see "Already up to date" or a list of updated files
 
 ### Step 3: Make Your Content Changes
-1. **Open the files you need to edit** in any text editor
+1. **Open the files you need to edit** in VSCode
 2. **Common files to edit**:
    - `_pages/about.md` - Your about page
    - `_data/cv.yml` - Your CV information
    - `_projects/` folder - Your projects
    - `_config.yml` - Site settings
+
+#### � **Detailed Content Update Guides:**
+Click on the links below for step-by-step instructions:
+
+- 📄 **[How to Update Your CV PDF](SOP/update-cv-pdf.md)** - Upload new CV files and update links
+- 👤 **[How to Update Your About Page](SOP/update-about-page.md)** - Personal info, bio, and profile picture
+- 🔬 **[How to Update Your Research Page](SOP/update-research-page.md)** - Add new papers or update existing ones
+- 🎓 **[How to Update Your Teaching Page](SOP/update-teaching-page.md)** - Add courses and update ratings
+
 3. **Make your changes and SAVE the files**
 
 ### Step 4: Test Changes Locally (See Your Changes Before Publishing)
