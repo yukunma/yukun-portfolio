@@ -13,7 +13,7 @@ with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home),
 [Kengo Kato](https://sites.google.com/site/kkatostat/home),
 and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)  
 _**Journal of Business and Economic Statistics**_, 40 (3), pp. 1046-1056 (2022)  
-**Abstract**: This paper investigates double/debiased machine learning (DML) under multiway clustered sampling environments. We propose a novel multiway cross-fitting algorithm and a multiway DML estimator based on this algorithm. We also develop a multiway cluster robust standard error formula. Simulations indicate that the proposed procedure has favorable finite sample performance. Applying the proposed method to market share data for demand analysis, we obtain larger two-way cluster robust standard errors for the price coefficient than non-robust ones in the demand model.
+
 
 **Code**: [R code](https://www.tandfonline.com/doi/suppl/10.1080/07350015.2021.1895815?scroll=top), [Stata](https://drive.google.com/file/d/1G2Nn6LzmICQwtC02Z0H8Truo7vTPwutp/view), [Python Package](https://docs.doubleml.org/stable/api/api.html), [R Package](https://docs.doubleml.org/r/stable/)
 
@@ -27,7 +27,9 @@ Read full article:
 
 with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel Rodrigue](https://joelrodrigue.com/), and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)
 
-**Abstract**: This paper presents novel methods and theories for estimation and inference about parameters in statistical models using machine learning for nuisance parameters estimation when data are dyadic. We propose a dyadic cross-fitting method to remove over-fitting biases under arbitrary dyadic dependence. Together with the use of Neyman orthogonal scores, this novel cross-fitting method enables root-n consistent estimation and inference robustly against dyadic dependence. We demonstrate its versatility by applying it to high-dimensional network formation models and reexamine the determinants of free trade agreements (FTA).
+_**Econometric Theory**_, conditionally accepted
+
+
 
 Read full article:
 

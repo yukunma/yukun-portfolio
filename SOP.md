@@ -25,7 +25,8 @@ This guide assumes you have:
    - Navigate to and select your `yukun-portfolio` folder
    - Click `Open`
 3. **Open the integrated terminal**:
-   - Press `Ctrl+ ~(backtick)` or `View` → `Terminal`
+   - **Keyboard shortcut**: Press `Ctrl` + `` ` `` (the backtick key, upper-left of keyboard)
+   - **OR menu**: Click `View` → `Terminal`
    - The terminal will automatically be in your project folder
 
 ### Step 2: Pull Latest Changes (ALWAYS DO THIS FIRST!)
