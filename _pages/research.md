@@ -27,7 +27,7 @@ Read full article:
 
 with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel Rodrigue](https://joelrodrigue.com/), and [Yuya Sasaki](https://sites.google.com/site/yuyasasaki/)
 
-_**Econometric Theory**_, conditionally accepted
+_**Econometric Theory**_, forthcoming.
 
 
 
