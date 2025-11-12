@@ -35,9 +35,6 @@ Read full article:
 
 - [on arXiv](https://arxiv.org/pdf/2110.04365.pdf)
 - [on Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MFra9aUAAAAJ&citation_for_view=MFra9aUAAAAJ:9yKSN-GCB0IC)
-
-**Presentations**: New York Camp Econometrics XV program, Asian Meeting of Econometric Society, North American Summer Meeting, 73rd European meeting of the Econometric Society, International Association of Applied Econometrics Annual Conference, Southern Economics Association 91st Annual Meeting, Midwest Economics Association 86th Annual Meeting,
-
 - [Slides](/assets/pdf/Yukun-Ma-Dyadic-MEG2022.pdf)
 
 #### <font color ="#263755" face = "Arial" > "Doubly Robust Estimators with Weak Overlap" </font>
@@ -58,9 +55,8 @@ _**Best Student Paper Award** at the 2023 Midwest Econometrics Group (MEG) Confe
 
 Read full article:
 
-- [Most recent version](/assets/pdf/Yukun-Ma-JMP-v1.pdf)
 - [on arXiv](https://arxiv.org/pdf/2302.09756.pdf)
 
-**Presentations**: NY Camp Econometrics XVII, Chinese Economist Society North American Conference, 1st CIREQ Interdisciplinary PhD Student Conference on Big Data and Artificial Intelligence, 2023 Asia Meeting of the Econometric Society, 38th meeting of European Economic Association, 33rd Midwest Econometrics Group.
 
-- [Slides](/assets/pdf/Yukun-Ma-JMP-slides-v1.pdf)
+
+
