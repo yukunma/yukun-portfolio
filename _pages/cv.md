@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 0
-cv_pdf: Yukun-Ma-CV-v5.pdf
+cv_pdf: Yukun-Ma-CV-v6.pdf
 ---
