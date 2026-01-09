@@ -6,18 +6,18 @@
  * Themes
  ******************************************************************************/
 :root {
-  --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
-  --global-text-color: #000000;
-  --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
-  --global-footer-bg-color: #1C1C1D;
-  --global-footer-text-color: #e8e8e8;
-  --global-footer-link-color: #ffffff;
-  --global-distill-app-color: #828282;
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #ffffff;
+  --global-bg-color: #F4F1EA;
+  --global-code-bg-color: rgba(178, 34, 34, 0.05);
+  --global-text-color: #2C292D;
+  --global-text-color-light: #403E3B;
+  --global-theme-color: #B22222;
+  --global-hover-color: #B22222;
+  --global-footer-bg-color: #2C292D;
+  --global-footer-text-color: #c1bfbc;
+  --global-footer-link-color: #F4F1EA;
+  --global-distill-app-color: #403E3B;
+  --global-divider-color: rgba(44, 41, 45, 0.15);
+  --global-card-bg-color: #F4F1EA;
 }
 :root .fa-sun {
   display: none;
@@ -34,17 +34,18 @@
   display: none;
 }
 
+/* Dark mode disabled */
 html[data-theme=dark] {
-  --global-bg-color: #1C1C1D;
+  --global-bg-color: #2C292D;
   --global-code-bg-color: #2c3237;
-  --global-text-color: #e8e8e8;
-  --global-text-color-light: #e8e8e8;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
-  --global-footer-bg-color: #e8e8e8;
-  --global-footer-text-color: #1C1C1D;
-  --global-footer-link-color: #000000;
-  --global-distill-app-color: #e8e8e8;
+  --global-text-color: #c1bfbc;
+  --global-text-color-light: #c1bfbc;
+  --global-theme-color: #3F7D8E;
+  --global-hover-color: #3F7D8E;
+  --global-footer-bg-color: #c1bfbc;
+  --global-footer-text-color: #2C292D;
+  --global-footer-link-color: #2C292D;
+  --global-distill-app-color: #c1bfbc;
   --global-divider-color: #424246;
   --global-card-bg-color: #212529;
 }
@@ -63,6 +64,7 @@ html[data-theme=dark] .repo-img-dark {
   display: block;
 }
 
+/* */
 /******************************************************************************
  * Content
  ******************************************************************************/
@@ -70,8 +72,14 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: "Lora", serif;
 }
-body h1, body h2, body h3, body h4, body h5, body h6 {
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
   scroll-margin-top: 66px;
 }
 
@@ -195,7 +203,7 @@ blockquote {
 .profile .address {
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: monospace;
+  font-family: "Courier Prime", monospace;
 }
 .profile .address p {
   display: inline-block;
@@ -457,10 +465,10 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 .pagination .page-item .page-link:hover {
-  color: #000000;
+  color: #2C292D;
 }
 .pagination .page-item.active .page-link {
-  color: #ffffff;
+  color: #F4F1EA;
   background-color: var(--global-theme-color);
 }
 .pagination .page-item.active .page-link:hover {
@@ -597,7 +605,7 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .badges span {
   display: inline-block;
-  color: #000000;
+  color: #2C292D;
   height: 100%;
   padding-left: 0.5rem;
   vertical-align: middle;
@@ -649,6 +657,7 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  font-family: "Courier Prime", monospace;
 }
 pre pre,
 pre code {
@@ -663,6 +672,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-family: "Courier Prime", monospace;
 }
 
 html.transition,
@@ -783,20 +793,35 @@ d-byline h3 {
   color: var(--global-text-color) !important;
 }
 
-d-byline a, d-article d-byline a {
+d-byline a,
+d-article d-byline a {
   color: var(--global-text-color) !important;
 }
-d-byline a:hover, d-article d-byline a:hover {
+d-byline a:hover,
+d-article d-byline a:hover {
   color: var(--global-hover-color) !important;
 }
 
 d-article {
   border-top-color: var(--global-divider-color) !important;
 }
-d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6, d-article li, d-article table {
+d-article p,
+d-article h1,
+d-article h2,
+d-article h3,
+d-article h4,
+d-article h5,
+d-article h6,
+d-article li,
+d-article table {
   color: var(--global-text-color) !important;
 }
-d-article h1, d-article h2, d-article hr, d-article table, d-article table th, d-article table td {
+d-article h1,
+d-article h2,
+d-article hr,
+d-article table,
+d-article table th,
+d-article table td {
   border-bottom-color: var(--global-divider-color) !important;
 }
 d-article a {
@@ -840,7 +865,7 @@ d-article d-contents nav div {
   display: block;
   outline: none;
   margin-bottom: 0.8em;
-  color: rgba(0, 0, 0, 0.8);
+  color: var(--global-text-color);
   font-weight: bold;
 }
 d-article d-contents nav ul {
@@ -867,13 +892,17 @@ d-appendix {
   border-top-color: var(--global-divider-color) !important;
   color: var(--global-distill-app-color) !important;
 }
-d-appendix h3, d-appendix li, d-appendix span {
+d-appendix h3,
+d-appendix li,
+d-appendix span {
   color: var(--global-distill-app-color) !important;
 }
-d-appendix a, d-appendix a.footnote-backlink {
+d-appendix a,
+d-appendix a.footnote-backlink {
   color: var(--global-distill-app-color) !important;
 }
-d-appendix a:hover, d-appendix a.footnote-backlink:hover {
+d-appendix a:hover,
+d-appendix a.footnote-backlink:hover {
   color: var(--global-hover-color) !important;
 }
 
