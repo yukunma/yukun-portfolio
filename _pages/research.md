@@ -37,7 +37,7 @@ Read full article:
 
 #### <font color ="#263755" face = "Arial" > "Identification-robust Inference for the LATE with High-dimensional Covariates" </font>
 
-Revise and Resubmit at the _Journal of Econometrics_.
+_**Journal of Econometrics**_, forthcoming.
 
 Read full article:
 

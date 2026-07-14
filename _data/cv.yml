@@ -19,34 +19,6 @@
       institution: Nankai University
       year: Aug 2012 - May 2016
 
-- title: Conferences
-  type: time_table
-  contents:
-    - title:
-      year: 2023
-      description:
-        - NY Camp Econometrics XVII program (New York, April 2023)
-        - Chinese Economist Society North American Conference (Virtual, March 2023)
-        - 1st CIREQ Interdisciplinary Ph.D. Student Conference on Big Data and Artificial Intelligence (Montreal, June 2023)
-        - Asia Meeting of the Econometric Society (Singapore, July 2023),
-        - 38th European Economic Association (Barcelona, August 2023)
-        - Midwest Econometrics Group Conference (Cleveland, October 2023)
-        - Canadian Econometric Study Group Meeting (Toronto, October 2023)
-        - Southern Economic Association Annual Meetings (New Orleans, November 2023)
-    - title:
-      year: 2022
-      description:
-        - Midwest Economics Association 86th Annual Meeting (Michigan, October 2022)
-
-    - title:
-      year: 2021
-      description:
-        - New York Camp Econometrics XV program (April 2021)
-        - Asian Meeting of Econometric Society (June 2021)
-        - North American Summer Meeting (June 2021)
-        - 73rd European Meeting of the Econometric Society (August 2021)
-        - International Association of Applied Econometrics Annual Conference (June 2021)
-        - Southern Economics Association 91st Annual Meeting (Houston, November 2021)
 # - title: Honors and Awards
 #   type: time_table
 #   contents:
