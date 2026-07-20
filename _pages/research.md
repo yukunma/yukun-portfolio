@@ -32,7 +32,7 @@ _**Econometric Theory**_, forthcoming.
 
 Read full article:
 
-- [on arXiv](https://arxiv.org/pdf/2110.04365.pdf)
+- [published version](https://www.cambridge.org/core/journals/econometric-theory/article/doubledebiased-machine-learning-for-dyadic-data/463CA7664A3252892656F934591B54E3)
 
 
 #### <font color ="#263755" face = "Arial" > "Identification-robust Inference for the LATE with High-dimensional Covariates" </font>
@@ -41,7 +41,7 @@ _**Journal of Econometrics**_, forthcoming.
 
 Read full article:
 
-- [on arXiv](https://arxiv.org/pdf/2302.09756.pdf)
+- [published version](https://authors.elsevier.com/a/1nSQg15DjiQYjJ)
 
 #### <font color ="#263755" face = "Arial" > "Doubly Robust Estimators with Weak Overlap" </font>
 
