@@ -28,7 +28,7 @@ with [Harold D.Chiang](https://sites.google.com/view/haroldchiang/home), [Joel R
 
 _**Econometric Theory**_, forthcoming.
 
-
+**Code & Data**: [Replication package](https://drive.google.com/file/d/14Ph9ne_-4070ambP0mw4IEwRyQmyieCg/view?usp=sharing)
 
 Read full article:
 
@@ -51,7 +51,6 @@ with [Pedro H.C. Sant’Anna](https://psantanna.com/), [Yuya Sasaki](https://sit
 Read full article:
 
 - [on arXiv](https://arxiv.org/pdf/2304.08974.pdf)
-
 
 
 
