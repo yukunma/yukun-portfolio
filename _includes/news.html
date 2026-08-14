@@ -1,30 +1,87 @@
-          
-          <div class="news">
-            {% if site.news != blank -%} 
-            {%- assign news_size = site.news | size -%}
-            <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
-              <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
-              {% if site.news_limit %}
-              {% assign news_limit = site.news_limit %}
-              {% else %}
-              {% assign news_limit = news_size %}
-              {% endif %}
-              {% for item in news limit: news_limit %} 
-                <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
-                    {% if item.inline -%} 
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {%- endif %} 
-                  </td>
-                </tr>
-              {%- endfor %} 
-              </table>
-            </div>
-          {%- else -%} 
-            <p>No news so far...</p>
-          {%- endif %} 
-          </div>
+<!-- news.html -->
+<div class="news">
+  {% if site.news != blank -%}
+    {%- assign news_size = site.news | size -%}
+    {%- assign news = site.news | sort: "date" | reverse -%}
+    {%- if site.news_limit -%}
+      {%- assign news_limit = site.news_limit -%}
+    {%- else -%}
+      {%- assign news_limit = news_size -%}
+    {%- endif -%}
+    {%- assign scrollable = false -%}
+    {%- if site.news_scrollable and news_size > 3 and news_limit > 3 -%}
+      {%- assign scrollable = true -%}
+    {%- endif -%}
+
+    <div class="news-scroll{% if scrollable %} is-scrollable{% endif %}">
+      <table class="table table-sm table-borderless">
+        {% for item in news limit: news_limit %}
+          <tr class="news-item">
+            <th scope="row">{{ item.date | date: "%b %Y" }}</th>
+            <td>
+              {% if item.inline -%}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {%- else -%}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {%- endif %}
+            </td>
+          </tr>
+        {%- endfor %}
+      </table>
+    </div>
+
+    {%- if news_size > news_limit %}
+      <div class="news-more">
+        <a href="{{ '/news/' | relative_url }}">all news &rarr;</a>
+      </div>
+    {%- endif %}
+  {%- else -%}
+    <p>No news so far...</p>
+  {%- endif %}
+</div>
+
+<script>
+  // Fade each news item in as it scrolls into view (and fade the bottom edge
+  // of the scroll box while there is more to read).
+  (function () {
+    var box = document.querySelector('.news-scroll');
+    if (!box) return;
+
+    var items = box.querySelectorAll('.news-item');
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!reduced && 'IntersectionObserver' in window) {
+      // Items are only hidden once this class is set, so news stays readable
+      // when JavaScript is unavailable.
+      box.classList.add('news-animated');
+
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { root: box.classList.contains('is-scrollable') ? box : null, threshold: 0.15 });
+
+      items.forEach(function (item, i) {
+        item.style.transitionDelay = Math.min(i, 6) * 60 + 'ms';
+        io.observe(item);
+      });
+
+      // Safety net: never leave an item hidden.
+      setTimeout(function () {
+        items.forEach(function (item) { item.classList.add('is-visible'); });
+      }, 3000);
+    }
+
+    if (box.classList.contains('is-scrollable')) {
+      var edges = function () {
+        box.classList.toggle('at-top', box.scrollTop <= 4);
+        box.classList.toggle('at-bottom', box.scrollTop + box.clientHeight >= box.scrollHeight - 4);
+      };
+      box.addEventListener('scroll', edges, { passive: true });
+      edges();
+    }
+  })();
+</script>

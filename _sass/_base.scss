@@ -858,3 +858,137 @@ pre {
     opacity: 1;
   }
 }
+// News
+// -----------------------------------------------------------------------------
+
+.news {
+  .news-scroll {
+    position: relative;
+
+    // Scrollable variant: fixed viewport with a soft fade on the edge that
+    // still has content behind it.
+    &.is-scrollable {
+      max-height: 15rem;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scroll-behavior: smooth;
+      padding-right: 0.75rem;
+      -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0,
+        black 1.75rem,
+        black calc(100% - 1.75rem),
+        transparent 100%
+      );
+      mask-image: linear-gradient(
+        to bottom,
+        transparent 0,
+        black 1.75rem,
+        black calc(100% - 1.75rem),
+        transparent 100%
+      );
+
+      &.at-top {
+        -webkit-mask-image: linear-gradient(
+          to bottom,
+          black 0,
+          black calc(100% - 1.75rem),
+          transparent 100%
+        );
+        mask-image: linear-gradient(
+          to bottom,
+          black 0,
+          black calc(100% - 1.75rem),
+          transparent 100%
+        );
+      }
+
+      &.at-bottom {
+        -webkit-mask-image: linear-gradient(to bottom, transparent 0, black 1.75rem, black 100%);
+        mask-image: linear-gradient(to bottom, transparent 0, black 1.75rem, black 100%);
+      }
+
+      &.at-top.at-bottom {
+        -webkit-mask-image: none;
+        mask-image: none;
+      }
+
+      scrollbar-width: thin;
+      scrollbar-color: var(--global-divider-color) transparent;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--global-divider-color);
+        border-radius: 3px;
+      }
+
+      &:hover::-webkit-scrollbar-thumb {
+        background-color: var(--global-theme-color);
+      }
+    }
+  }
+
+  table {
+    margin-bottom: 0;
+  }
+
+  .news-animated .news-item {
+    opacity: 0;
+    transform: translateY(0.6rem);
+    transition:
+      opacity 0.5s ease,
+      transform 0.5s ease;
+
+    &.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .news-item {
+
+    th {
+      white-space: nowrap;
+      font-weight: 500;
+      color: var(--global-text-color-light);
+      padding-right: 1rem;
+      vertical-align: top;
+    }
+
+    td {
+      vertical-align: top;
+    }
+  }
+
+  .news-more {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+
+    a {
+      color: var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news .news-animated .news-item {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .news .news-scroll.is-scrollable {
+    scroll-behavior: auto;
+  }
+}

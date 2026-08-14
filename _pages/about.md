@@ -14,7 +14,7 @@ profile:
     <p>225 Harkness Hall</p>
     <p> <a href="https://scholar.google.com/citations?user=MFra9aUAAAAJ">  Google Scholar</a></p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
