@@ -782,6 +782,90 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   opacity: 1;
 }
 
+.news .news-scroll {
+  position: relative;
+}
+.news .news-scroll.is-scrollable {
+  max-height: 15rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  padding-right: 0.75rem;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, black 1.75rem, black calc(100% - 1.75rem), transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, black 1.75rem, black calc(100% - 1.75rem), transparent 100%);
+}
+.news .news-scroll.is-scrollable.at-top {
+  -webkit-mask-image: linear-gradient(to bottom, black 0, black calc(100% - 1.75rem), transparent 100%);
+  mask-image: linear-gradient(to bottom, black 0, black calc(100% - 1.75rem), transparent 100%);
+}
+.news .news-scroll.is-scrollable.at-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, black 1.75rem, black 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, black 1.75rem, black 100%);
+}
+.news .news-scroll.is-scrollable.at-top.at-bottom {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+.news .news-scroll.is-scrollable {
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-divider-color) transparent;
+}
+.news .news-scroll.is-scrollable::-webkit-scrollbar {
+  width: 5px;
+}
+.news .news-scroll.is-scrollable::-webkit-scrollbar-track {
+  background: transparent;
+}
+.news .news-scroll.is-scrollable::-webkit-scrollbar-thumb {
+  background-color: var(--global-divider-color);
+  border-radius: 3px;
+}
+.news .news-scroll.is-scrollable:hover::-webkit-scrollbar-thumb {
+  background-color: var(--global-theme-color);
+}
+.news table {
+  margin-bottom: 0;
+}
+.news .news-animated .news-item {
+  opacity: 0;
+  transform: translateY(0.6rem);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.news .news-animated .news-item.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.news .news-item th {
+  white-space: nowrap;
+  font-weight: 500;
+  color: var(--global-text-color-light);
+  padding-right: 1rem;
+  vertical-align: top;
+}
+.news .news-item td {
+  vertical-align: top;
+}
+.news .news-more {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+.news .news-more a {
+  color: var(--global-text-color-light);
+}
+.news .news-more a:hover {
+  color: var(--global-theme-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news .news-animated .news-item {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .news .news-scroll.is-scrollable {
+    scroll-behavior: auto;
+  }
+}
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
