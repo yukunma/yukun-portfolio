@@ -104,13 +104,20 @@
           <article>
             <!-- news.html -->
 <div class="news">
-  <div class="news-scroll">
+  <div class="news-scroll is-scrollable">
       <table class="table table-sm table-borderless">
         
           <tr class="news-item">
             <th scope="row">May 2027</th>
             <td>
               Invited talk at <strong>UC Davis</strong>.
+
+            </td>
+          </tr>
+          <tr class="news-item">
+            <th scope="row">Nov 2026</th>
+            <td>
+              Invited talk at <strong>Texas A&amp;M University</strong>.
 
             </td>
           </tr>
@@ -174,6 +181,23 @@
       };
       box.addEventListener('scroll', edges, { passive: true });
       edges();
+
+      // The list height keeps moving after this runs — web fonts swap in, the
+      // window gets resized, and the reveal transform above counts toward the
+      // scroll overflow until it settles. Without these the fade is computed
+      // against a stale height and dims the last item with nothing to scroll.
+      box.addEventListener('transitionend', edges);
+      window.addEventListener('load', edges);
+      window.addEventListener('resize', edges, { passive: true });
+      if ('ResizeObserver' in window) {
+        var ro = new ResizeObserver(edges);
+        ro.observe(box);
+        var list = box.querySelector('table');
+        if (list) ro.observe(list);
+      }
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(edges);
+      }
     }
   })();
 </script>
