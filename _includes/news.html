@@ -82,6 +82,23 @@
       };
       box.addEventListener('scroll', edges, { passive: true });
       edges();
+
+      // The list height keeps moving after this runs — web fonts swap in, the
+      // window gets resized, and the reveal transform above counts toward the
+      // scroll overflow until it settles. Without these the fade is computed
+      // against a stale height and dims the last item with nothing to scroll.
+      box.addEventListener('transitionend', edges);
+      window.addEventListener('load', edges);
+      window.addEventListener('resize', edges, { passive: true });
+      if ('ResizeObserver' in window) {
+        var ro = new ResizeObserver(edges);
+        ro.observe(box);
+        var list = box.querySelector('table');
+        if (list) ro.observe(list);
+      }
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(edges);
+      }
     }
   })();
 </script>
