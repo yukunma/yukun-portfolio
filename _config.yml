@@ -8,10 +8,13 @@ middle_name:
 last_name: Ma
 email: yma69@ur.rochester.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is Yukun Ma's page.
+  Yukun Ma is an Assistant Professor of Economics at the University of Rochester
+  and Principal Investigator of the Yukun Ma Research Group, an independent
+  econometrics research group working on robust inference, machine learning,
+  high-dimensional methods, and weak identification.
 footer_text: >
 
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Yukun Ma, Principal Investigator, PI, econometrics, econometric theory, machine learning, weak identification, robust inference, University of Rochester, Yukun Ma Research Group
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -60,9 +63,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: false # Custom PI/research-group schema is included separately
+og_image: https://yukunma.github.io/assets/img/og.png # Site-wide social preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -101,7 +104,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Feel free to contact me if you have any questions or comments about my website or work. I'd love to hear from you!
+  I welcome questions about my research, potential collaborations, and interest in joining the research group.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
