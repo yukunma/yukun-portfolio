@@ -23,9 +23,9 @@ social: true # includes social icons at the bottom of the page
 
 I am an Assistant Professor in the [Department of Economics](https://www.sas.rochester.edu/eco/) at the University of Rochester, with a joint appointment in the [Goergen Institute for Data Science and Artificial Intelligence](https://www.hajim.rochester.edu/dsc/).
 
-I am the **Principal Investigator of the [Yukun Ma Research Group]({% link _pages/research-group.md %})**. My research starts from a practical question: when data are dependent, instruments are weak, or machine learning is doing part of the estimation, what can an empirical researcher still trust? I develop econometric tools that keep inference honest in exactly these difficult settings.
+I am the **Principal Investigator of the [Yukun Ma Research Group]({% link _pages/research-group.md %})**, an independent research group centered on econometric theory and its practical applications. Our research program develops robust inference for clustered data, machine-learning and high-dimensional methods, and identification-robust methods for instrumental-variables models.
 
-This website is both my personal academic homepage and the home of the research group. The group is currently PI-led, and I work closely with collaborators across institutions. Student members will be added as they join. You can read more about our [research questions, papers, code, and data]({% link _pages/research-group.md %}).
+This website serves both as my personal academic homepage and as the home of the research group. The group is currently PI-led; student members will be added as they join. I work closely with collaborators across institutions on individual research projects.
 
 <!-- My [job market paper](https://www.yukunma.com/jmp/), entitled “Identification-Robust Inference for the LATE with High-Dimensional Covariates,” received the Best Student Paper Award at the 2023 Midwest Econometrics Group (MEG) Conference.
 
