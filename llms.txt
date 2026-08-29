@@ -10,10 +10,10 @@ Research areas include econometric theory and applications; robust inference for
 
 ## Primary pages
 
-- [Personal academic homepage](https://yukunma.github.io/): Yukun Ma's biography, current affiliation, research identity, and news.
-- [Yukun Ma Research Group](https://yukunma.github.io/research-group/): Canonical description of the PI-led group, research agenda, people, and collaboration model.
-- [Research output](https://yukunma.github.io/research/): Papers, publication status, coauthors, code, data, and replication materials.
-- [Curriculum vitae](https://yukunma.github.io/cv/): Yukun Ma's academic CV.
+- [Personal academic homepage](https://www.yukunma.com/): Yukun Ma's biography, current affiliation, research identity, and news.
+- [Yukun Ma Research Group](https://www.yukunma.com/research-group/): Canonical description of the PI-led group, research agenda, people, and collaboration model.
+- [Research output](https://www.yukunma.com/research/): Papers, publication status, coauthors, code, data, and replication materials.
+- [Curriculum vitae](https://www.yukunma.com/cv/): Yukun Ma's academic CV.
 
 ## External profiles
 

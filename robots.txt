@@ -2,4 +2,4 @@ User-agent: *
 Disallow:
 Allow: /llms.txt
 
-Sitemap: https://yukunma.github.io/sitemap.xml
+Sitemap: https://www.yukunma.com/sitemap.xml
