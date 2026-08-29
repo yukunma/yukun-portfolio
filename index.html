@@ -13,10 +13,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yukun Ma</title>
     <meta name="author" content="Yukun  Ma">
-    <meta name="description" content="This is Yukun Ma's page.
-">
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+    <meta name="description" content="Yukun Ma is an econometrician, Assistant Professor at the University of Rochester, and Principal Investigator of the Yukun Ma Research Group.">
+    <meta name="keywords" content="Yukun Ma, Principal Investigator, econometrics, University of Rochester, Yukun Ma Research Group">
 
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="Yukun Ma">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Yukun Ma | About">
+    <meta property="og:url" content="https://yukunma.github.io/">
+    <meta property="og:description" content="Yukun Ma is an econometrician, Assistant Professor at the University of Rochester, and Principal Investigator of the Yukun Ma Research Group.">
+    <meta property="og:image" content="https://yukunma.github.io/assets/img/og.png">
+    <meta property="og:locale" content="en">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="About">
+    <meta name="twitter:description" content="Yukun Ma is an econometrician, Assistant Professor at the University of Rochester, and Principal Investigator of the Yukun Ma Research Group.">
+    <meta name="twitter:image" content="https://yukunma.github.io/assets/img/og.png">
+    
+
+<!-- Structured identity data for Yukun Ma and the Yukun Ma Research Group -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://yukunma.github.io/#yukun-ma",
+      "name": "Yukun Ma",
+      "givenName": "Yukun",
+      "familyName": "Ma",
+      "url": "https://yukunma.github.io/",
+      "image": "https://yukunma.github.io/assets/img/yukun-ma.jpg",
+      "email": "mailto:yma69@ur.rochester.edu",
+      "jobTitle": [
+        "Assistant Professor of Economics",
+        "Principal Investigator"
+      ],
+      "description": "Econometrician and Principal Investigator of the Yukun Ma Research Group.",
+      "affiliation": [
+        {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://www.rochester.edu/#organization",
+          "name": "University of Rochester",
+          "url": "https://www.rochester.edu/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Department of Economics, University of Rochester",
+          "url": "https://www.sas.rochester.edu/eco/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Goergen Institute for Data Science and Artificial Intelligence",
+          "url": "https://www.hajim.rochester.edu/dsc/"
+        }
+      ],
+      "memberOf": {
+        "@id": "https://yukunma.github.io/research-group/#organization"
+      },
+      "knowsAbout": [
+        "Econometrics",
+        "Econometric theory",
+        "Robust inference for clustered data",
+        "Machine learning",
+        "High-dimensional methods",
+        "Weak identification",
+        "Instrumental variables"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=MFra9aUAAAAJ",
+        "https://github.com/yukunma"
+      ]
+    },
+    {
+      "@type": "ResearchOrganization",
+      "@id": "https://yukunma.github.io/research-group/#organization",
+      "name": "Yukun Ma Research Group",
+      "alternateName": "Yukun Ma Econometrics Research Group",
+      "url": "https://yukunma.github.io/research-group/",
+      "description": "An independent, PI-led econometrics research group studying robust inference, machine learning, high-dimensional methods, and weak identification.",
+      "founder": {
+        "@id": "https://yukunma.github.io/#yukun-ma"
+      },
+      "member": {
+        "@id": "https://yukunma.github.io/#yukun-ma"
+      },
+      "knowsAbout": [
+        "Econometrics",
+        "Robust inference",
+        "Machine learning",
+        "High-dimensional econometrics",
+        "Weak identification"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yukunma.github.io/#website",
+      "name": "Yukun Ma",
+      "alternateName": "Yukun Ma Research Group",
+      "url": "https://yukunma.github.io/",
+      "description": "Yukun Ma is an Assistant Professor of Economics at the University of Rochester and Principal Investigator of the Yukun Ma Research Group, an independent econometrics research group working on robust inference, machine learning, high-dimensional methods, and weak identification.",
+      "publisher": {
+        "@id": "https://yukunma.github.io/#yukun-ma"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://yukunma.github.io/#webpage",
+      "url": "https://yukunma.github.io/",
+      "name": "About | Yukun Ma",
+      "description": "Yukun Ma is an econometrician, Assistant Professor at the University of Rochester, and Principal Investigator of the Yukun Ma Research Group.",
+      "isPartOf": {
+        "@id": "https://yukunma.github.io/#website"
+      },
+      "about": [
+        { "@id": "https://yukunma.github.io/#yukun-ma" },
+        { "@id": "https://yukunma.github.io/research-group/#organization" }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="describedby" href="/llms.txt" type="text/markdown">
 
 <!-- Bootstrap & MDB -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
@@ -37,6 +157,7 @@
     <link rel="canonical" href="https://yukunma.github.io/">
 
     <!-- Dark Mode -->
+
   </head>
 
   <!-- Body -->
@@ -76,6 +197,9 @@
             <a class="nav-link" href="/research/">Research</a>
           </li>
           <li class="nav-item ">
+            <a class="nav-link" href="/research-group/">Research Group</a>
+          </li>
+          <li class="nav-item ">
             <a class="nav-link" href="/teaching/">Teaching</a>
           </li>
 </ul>
@@ -99,7 +223,7 @@
           <h1 class="post-title">
            Yukun Ma
           </h1>
-          <p class="desc">Econometrics, Machine Learning, Weak Identification</p>
+          <p class="desc">Assistant Professor of Economics · Principal Investigator</p>
         </header>
 
         <article>
@@ -124,8 +248,11 @@
           </div>
 
           <div class="clearfix">
-            <p>I join the University of Rochester as an Assistant Professor in the Department of Economics with a joint appointment in the Goergen Institute for Data Science in July 2024.
-My research centers around econometric theory and its practical applications. Specifically, my interests lie in robust inference for clustered data, machine-learning and high-dimensional methods, as well as weak identification in IV regression.</p>
+            <p>I am an Assistant Professor in the <a href="https://www.sas.rochester.edu/eco/" rel="external nofollow noopener" target="_blank">Department of Economics</a> at the University of Rochester, with a joint appointment in the <a href="https://www.hajim.rochester.edu/dsc/" rel="external nofollow noopener" target="_blank">Goergen Institute for Data Science and Artificial Intelligence</a>.</p>
+
+<p>I am the <strong>Principal Investigator of the <a href="/research-group/">Yukun Ma Research Group</a></strong>, an independent research group centered on econometric theory and its practical applications. Our research program develops robust inference for clustered data, machine-learning and high-dimensional methods, and identification-robust methods for instrumental-variables models.</p>
+
+<p>This website serves both as my personal academic homepage and as the home of the research group. The group is currently PI-led; student members will be added as they join. I work closely with collaborators across institutions on individual research projects.</p>
 
 <!-- My [job market paper](https://www.yukunma.com/jmp/), entitled “Identification-Robust Inference for the LATE with High-Dimensional Covariates,” received the Best Student Paper Award at the 2023 Midwest Econometrics Group (MEG) Conference.
 
@@ -250,7 +377,7 @@ Thank you for taking the time to learn more about me and my research interests. 
               </div>
 
               <div class="contact-note">
-                Feel free to contact me if you have any questions or comments about my website or work. I'd love to hear from you!
+                I welcome questions about my research, potential collaborations, and interest in joining the research group.
 
               </div>
               
