@@ -2,9 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor of Economics · Principal Investigator
-description: Yukun Ma is an econometrician, Assistant Professor at the University of Rochester, and Principal Investigator of the Yukun Ma Research Group.
-keywords: Yukun Ma, Principal Investigator, econometrics, University of Rochester, Yukun Ma Research Group
+subtitle: Econometrics, Machine Learning, Weak Identification
 
 profile:
   align: left
@@ -21,11 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor in the [Department of Economics](https://www.sas.rochester.edu/eco/) at the University of Rochester, with a joint appointment in the [Goergen Institute for Data Science and Artificial Intelligence](https://www.hajim.rochester.edu/dsc/).
-
-I am the **Principal Investigator of the [Yukun Ma Research Group]({% link _pages/research-group.md %})**, an independent research group centered on econometric theory and its practical applications. Our research program develops robust inference for clustered data, machine-learning and high-dimensional methods, and identification-robust methods for instrumental-variables models.
-
-This website serves both as my personal academic homepage and as the home of the research group. The group is currently PI-led; student members will be added as they join. I work closely with collaborators across institutions on individual research projects.
+I join the University of Rochester as an Assistant Professor in the Department of Economics with a joint appointment in the Goergen Institute for Data Science in July 2024.
+My research centers around econometric theory and its practical applications. Specifically, my interests lie in robust inference for clustered data, machine-learning and high-dimensional methods, as well as weak identification in IV regression.
 
 <!-- My [job market paper](https://www.yukunma.com/jmp/), entitled “Identification-Robust Inference for the LATE with High-Dimensional Covariates,” received the Best Student Paper Award at the 2023 Midwest Econometrics Group (MEG) Conference.
 
