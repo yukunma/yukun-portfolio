@@ -1,5 +1,4 @@
 User-agent: *
 Disallow:
-Allow: /llms.txt
 
-Sitemap: https://www.yukunma.com/sitemap.xml
+Sitemap: https://yukunma.github.io/sitemap.xml
