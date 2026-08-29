@@ -91,6 +91,63 @@ body.sticky-bottom-footer {
   }
 }
 
+.research-program-grid,
+.research-outcomes {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2.25rem;
+}
+
+.research-topic,
+.paper-card {
+  border: 1px solid var(--global-divider-color);
+  padding: 1.15rem 1.25rem;
+
+  h3 {
+    font-size: 1.08rem;
+    line-height: 1.4;
+    margin: 0 0 0.65rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.research-topic {
+  .topic-number {
+    color: var(--global-theme-color);
+    font-family: Arial, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.paper-card {
+  .paper-status {
+    color: var(--global-text-color-light);
+    font-family: Arial, sans-serif;
+    font-size: 0.76rem;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.35rem;
+    text-transform: uppercase;
+  }
+}
+
+.research-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+
+  a {
+    font-family: Arial, sans-serif;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+}
+
 
 /******************************************************************************
  * Publications

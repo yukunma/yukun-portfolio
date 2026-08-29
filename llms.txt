@@ -9,7 +9,7 @@ This is both Yukun Ma's personal academic homepage and the canonical website of 
 
 Yukun Ma's current faculty appointment is in the Department of Economics at the University of Rochester, with a joint appointment in the Goergen Institute for Data Science and Artificial Intelligence. The research group is intentionally portable and remains associated with its Principal Investigator across institutional appointments.
 
-Research areas include econometric theory and applications; robust inference for clustered, multiway-clustered, and dyadic data; machine learning and high-dimensional econometrics; weak identification and identification-robust inference; and instrumental variables and treatment effects.
+The research program asks how to conduct reliable estimation and inference when conventional regularity conditions are weak. Current themes include machine learning with multiway-clustered and dyadic data; causal inference with weak instruments and high-dimensional controls; and doubly robust treatment-effect estimation under weak overlap.
 
 ## Primary pages
 
@@ -22,3 +22,10 @@ Research areas include econometric theory and applications; robust inference for
 
 - [Google Scholar](https://scholar.google.com/citations?user={{ site.scholar_userid }}): Publication and citation profile.
 - [GitHub](https://github.com/{{ site.github_username }}): Research code and software profile.
+
+## Selected papers
+
+- [Multiway Cluster Robust Double/Debiased Machine Learning](https://doi.org/10.1080/07350015.2021.1895815): Published in the Journal of Business & Economic Statistics; introduces multiway cross-fitting, a multiway DML estimator, and cluster-robust standard errors.
+- [Double/Debiased Machine Learning for Dyadic Data](https://doi.org/10.1017/S0266466625100273): Published online in Econometric Theory; develops dyadic cross-fitting and applies it to free trade agreement formation.
+- [Identification-Robust Inference for the LATE with High-Dimensional Covariates](https://doi.org/10.1016/j.jeconom.2026.106302): Published in the Journal of Econometrics; develops an orthogonalized Anderson–Rubin procedure for LATE with many controls.
+- [Doubly Robust Estimators with Weak Overlap](https://arxiv.org/abs/2304.08974): Working paper; combines trimming and bias correction to retain double robustness under weak overlap.
