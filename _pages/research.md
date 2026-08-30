@@ -37,7 +37,7 @@ Read full article:
 
 #### <font color ="#263755" face = "Arial" > "Identification-robust Inference for the LATE with High-dimensional Covariates" </font>
 
-_**Journal of Econometrics**_, forthcoming.
+_**Journal of Econometrics**_, 257, 106302 (2026).
 
 Read full article:
 
@@ -51,7 +51,6 @@ with [Pedro H.C. Sant’Anna](https://psantanna.com/), [Yuya Sasaki](https://sit
 Read full article:
 
 - [on arXiv](https://arxiv.org/pdf/2304.08974.pdf)
-
 
 
 
