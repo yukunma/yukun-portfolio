@@ -52,6 +52,11 @@ Read full article:
 
 - [on arXiv](https://arxiv.org/pdf/2304.08974.pdf)
 
+#### <font color ="#263755" face = "Arial" > "Choosing the Dictionary and Penalty for IV-LASSO" </font>
 
+with [Manu Navjeevan](https://navjeevan.dev/) and Bohdan Salahub
 
+Read full article:
+
+- [Draft](https://navjeevan.dev/files/Papers/ivlasso.pdf)
 
