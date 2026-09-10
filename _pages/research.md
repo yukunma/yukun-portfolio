@@ -58,5 +58,4 @@ with [Manu Navjeevan](https://navjeevan.dev/) and Bohdan Salahub
 
 Read full article:
 
-- [Draft](https://navjeevan.dev/files/Papers/ivlasso.pdf)
-
+- [on arXiv](https://arxiv.org/pdf/2609.07033)
