@@ -41,7 +41,7 @@ _**Journal of Econometrics**_, 257, 106302 (2026).
 
 Read full article:
 
-- [published version](https://authors.elsevier.com/a/1nSQg15DjiQYjJ)
+- [published version](https://doi.org/10.1016/j.jeconom.2026.106302)
 
 #### <font color ="#263755" face = "Arial" > "Doubly Robust Estimators with Weak Overlap" </font>
 

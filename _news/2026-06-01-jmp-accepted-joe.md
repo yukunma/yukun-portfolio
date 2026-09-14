@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Job market paper, "Identification-robust Inference for the LATE with High-dimensional Covariates," accepted at the *Journal of Econometrics*. [[paper]](https://authors.elsevier.com/a/1nSQg15DjiQYjJ)
+Job market paper, "Identification-robust Inference for the LATE with High-dimensional Covariates," accepted at the *Journal of Econometrics*. [[paper]](https://doi.org/10.1016/j.jeconom.2026.106302)
