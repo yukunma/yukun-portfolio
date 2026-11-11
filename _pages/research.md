@@ -54,7 +54,7 @@ Read full article:
 
 #### <font color ="#263755" face = "Arial" > "Choosing the Dictionary and Penalty for IV-LASSO" </font>
 
-with [Manu Navjeevan](https://navjeevan.dev/) and Bohdan Salahub
+with [Manu Navjeevan](https://navjeevan.dev/) and Bogdan Salahub
 
 Read full article:
 
