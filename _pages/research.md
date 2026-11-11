@@ -59,3 +59,11 @@ with [Manu Navjeevan](https://navjeevan.dev/) and Bohdan Salahub
 Read full article:
 
 - [on arXiv](https://arxiv.org/pdf/2609.07033)
+
+#### <font color ="#263755" face = "Arial" > "Semiparametric Inference in Panel Data with Interactive and High-dimensional Confounding" </font>
+
+with [Bin Chen](https://sites.google.com/site/binchenur/) and [Qiyang Yu](https://maxqiyangyu.github.io/)
+
+Read full article:
+
+- [on arXiv](https://arxiv.org/pdf/2611.14385)
